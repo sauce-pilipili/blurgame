@@ -1,0 +1,49 @@
+.btn{
+
+    color: rgb(128, 201, 50);
+    padding: 5px 10px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+body{
+
+    margin: 0 auto;
+    height:250px;
+    background-image: url("images/arrow-bullseyeiStock_000043470790_Full.jpg");
+    background-position: center center;
+    background-attachment:fixed;
+}
+h1{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+
+    font-family:Onyx;
+    color: rgb(128, 201, 50);
+    font-size: 130px;
+}
+.menubtn{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+    display: inline-list-item;
+}
+.mouseEvent{
+    border: 3px solid rgb(128, 201, 50);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.fenetre{
+    border: 3px solid rgb(128, 201, 50);
+    background-color: white;
+    filter: blur(0px);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+}
